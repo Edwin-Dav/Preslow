@@ -1,15 +1,23 @@
-#menu ul{
-    list-style: none;
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+    padding: 0%;
 }
-#menu ul li{
+#menu{
+    display: flex;
+    justify-content: space-between;
+}
+#menu{
     display: inline-block;
     color: green;
-    padding: 10px 90px;
+    padding: 40px 20px;
 }
 h1{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     color:rgba(0, 0, 255, 0.747);
-    margin-top: 80px;
+    margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
 }
