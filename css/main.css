@@ -1,5 +1,8 @@
+body{
+    background-color: burlywood;
+}
 header{
-    background-color: beige;
+    background-color: rgb(180, 180, 107);
     display: flex;
     justify-content: space-between;
     margin-top: 0%;
@@ -12,18 +15,18 @@ header{
 a{
     text-decoration: none;
 }
-h1{
+#video{
     display: flex;
     justify-content: center;
-    color: green;
+    margin-top: 20px;
+}
+.parrafo{
+    display: flex;
+    justify-content: center;
+    color: rgb(81, 67, 211);
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-}
-div{
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
 }
 .features{
     display: grid;
@@ -35,6 +38,44 @@ div{
     margin-bottom: 30px;
     margin-left: 30px;
     margin-right: 30px;
-    background-color: greenyellow;
+    background-color: rgb(126, 223, 130);
     border: 1px solid #dadada;
+}
+@media only screen and (max-width: 400px){
+    body{
+        background-color: rgb(190, 189, 189);
+        position: absolute;
+        font-size: 16px;
+    }
+    .parrafo{
+        display: flex;
+        justify-content: center;
+    }
+    #menu{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+    }
+    #video{
+        margin-top: 15px;
+    }
+}    
+@media only screen and (min-width: 401px) and (max-width: 750px){
+    body{
+        background-color: rgb(218, 129, 129);
+        position: absolute;
+        font-size: 16px;
+    }
+    .parrafo{
+        display: flex;
+        justify-content: center;
+    }
+    #menu{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+    }
+    #video{
+        margin-top: 15px;
+    }
 }
