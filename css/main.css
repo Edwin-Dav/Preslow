@@ -28,6 +28,9 @@ a{
     margin-left: 20px;
     margin-right: 20px;
 }
+p{
+    font-size: 20px;
+}
 .features{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -36,7 +39,7 @@ a{
     margin-bottom: 30px;
     margin-left: 30px;
     margin-right: 30px;
-    background-color: rgb(126, 223, 130);
+    background-color: rgb(214, 214, 218);
     border: 1px solid #dadada;
 }
 form{
@@ -70,6 +73,9 @@ textarea{
         position: absolute;
         font-size: 16px;
     }
+    p{
+        font-size: 25px;
+    }
     .features{
         display: grid;
         grid-template-columns: repeat(1, 100%);
@@ -88,6 +94,9 @@ textarea{
         background-color: rgb(248, 205, 205);
         position: absolute;
         font-size: 16px;
+    }
+    p{
+        font-size: 20px;
     }
     .features{
         display: grid;
