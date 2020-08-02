@@ -26,30 +26,37 @@ header label:hover{
     padding: 0;
     display: flex;
 }
+.form-inline{
+    margin-top: 0px;
+    background-color: rgb(16, 49, 109);
+}
 a{
     font-size: 27px;
     display: block;
-    padding: 35px 50px;
+    padding: 30px 27px;
     color: cornsilk;
     text-decoration: none;
 }
 #video{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 .parrafo{
     display: flex;
     justify-content: center;
     color: rgb(81, 67, 211);
-    margin-top: 80px;
+    margin-top: 60px;
     margin-left: 20px;
     margin-right: 20px;
 }
 p{
+    padding: 25px;
     font-size: 20px;
 }
 #l{
+    margin: 2%;
     display: block;
     width: 80px;
     font-size: 20px;
@@ -57,10 +64,10 @@ p{
     text-decoration: none;
     padding: 5px;
     margin-top: 2px;
-    border: 3px solid rgb(97, 90, 202);
+    border: 3px solid rgb(13, 11, 32);
 }
 .features{
-    margin-top: 40px;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -76,7 +83,7 @@ form{
     width: 450px;
     margin: auto;
     padding: 10px 20px;
-    margin-top: 15px;
+    margin-top: 80px;
     border-radius: 7px;
 }
 h2{
@@ -95,12 +102,22 @@ textarea{
     min-height: 75px;
     max-height: 120px;
 }
-
+#boton{
+    padding: 10px;
+    background-color: dimgray;
+    color: floralwhite;
+}
+#boton:hover{
+    cursor: pointer;
+}
 @media only screen and (max-width: 400px){
     body{
         background-color:  rgb(223, 169, 169);
         position: absolute;
         font-size: 16px;
+    }
+    .parrafo{
+        font-size: 30px;
     }
     header label{
         display: block;
@@ -109,14 +126,17 @@ textarea{
         position: absolute;
         background: #517dbe;
         flex-direction: column;
-        width: 40%;
-        margin-left: -42%;
+        width: 25%;
+        margin-left: -27%;
     }
     a{
         border-top: 1px solid #fff;
     }
     #btn-menu:checked ~ #menu{
-        margin: 0;
+        margin: 150px 5px;
+    }
+    .form-inline{
+        width: 150px;
     }
     p{
         font-size: 25px;
@@ -124,11 +144,6 @@ textarea{
     .features{
         display: grid;
         grid-template-columns: repeat(1, 100%);
-    }
-    #menu{
-        display: flex;
-        align-items: center;
-        font-size: 20px;
     }
     #video{
         margin-top: 35px;
@@ -140,19 +155,25 @@ textarea{
         position: absolute;
         font-size: 16px;
     }
+    .parrafo{
+        font-size: 50px;
+    }
     p{
-        font-size: 20px;
+        font-size: 40px;
     }
     .features{
         display: grid;
         grid-template-columns: repeat(1, 100%);
     }
     #menu{
+        margin-top: 10px;
         display: flex;
-        align-items: center;
-        font-size: 20px;
+        font-size: 30px;
     }
     #video{
         margin-top: 35px;
+    }
+    form{
+        width: 400px;
     }
 }
