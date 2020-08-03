@@ -1,6 +1,15 @@
 body{
-    background-color: rgb(214, 214, 218);
-}
-.parrafo{
-    color: rgb(7, 9, 102);
-}
+    background-color: $color-grey;
+  }
+  
+  .parrafo{
+    color: $color-blue;
+  }
+  
+  .form-inline{
+    background-color: $color-blue;
+  }
+  
+  #l{
+    color: $color-blue;
+  }
